@@ -1,0 +1,33 @@
+{% load static %}
+<html>
+  <head>
+    <link rel="stylesheet" href="{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+  </head>
+
+  <body style="background-color: bisque">
+      <center>
+    <div class="containe">
+      <div class="py-5 text-center">
+        <h2>Vnosni obrazec</h2>
+        <p class="lead">Aplikacija na podlagi podatkov, ki jih vnesete tukaj, priporoči najbolj primeren tank.</p>
+      </div>
+    <form action="../final/" method="post">
+      {% csrf_token %}
+      {% for field in form %}
+        <div class="container">
+            <div class="row" style="margin: 9px">
+                <div class="col-md-2"></div>
+                <div class="col-md-6" style="background-color: seagreen; color: white; width: 30%; padding: 1% 0px">
+                    <label for="{{ field.id_for_label }}" style="font-weight: bold"> {{ field.label }} : {{ field }}</label>
+                    <div style="font-size: 11px">{{ field.help_text }}</div>
+                </div>
+            <div class="col-md-2"></div>
+            </div>
+        </div>
+      {% endfor %}
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+       </center>
+  </body>
+</html>

@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEXi>
+  <VERSION>5.05</VERSION>
+  <CREATED>2023-01-14T12:31:58</CREATED>
+  <OPTION>Leopard 2</OPTION>
+  <OPTION>Leopard 2 (ver 2)</OPTION>
+  <OPTION>T-72</OPTION>
+  <OPTION>M1A2 SEP</OPTION>
+  <OPTION>X-1</OPTION>
+  <SETTINGS/>
+  <ATTRIBUTE>
+    <NAME>Ocena tanka</NAME>
+    <SCALE>
+      <SCALEVALUE>
+        <NAME>Slab</NAME>
+        <GROUP>BAD</GROUP>
+      </SCALEVALUE>
+      <SCALEVALUE>
+        <NAME>Dober</NAME>
+      </SCALEVALUE>
+      <SCALEVALUE>
+        <NAME>Zelo dober</NAME>
+        <GROUP>GOOD</GROUP>
+      </SCALEVALUE>
+    </SCALE>
+    <FUNCTION>
+      <LOW>000000001111111111122222222</LOW>
+      <ENTERED>+-------------------------+</ENTERED>
+      <WEIGHTS>70;20;10</WEIGHTS>
+      <LOCWEIGHTS>80.00;10.00;10.00</LOCWEIGHTS>
+      <NORMLOCWEIGHTS>80.00;10.00;10.00</NORMLOCWEIGHTS>
+    </FUNCTION>
+    <OPTION>1</OPTION>
+    <OPTION>2</OPTION>
+    <OPTION>2</OPTION>
+    <OPTION>2</OPTION>
+    <OPTION>1</OPTION>
+    <ATTRIBUTE>
+      <NAME>Tehnicne specifikacije</NAME>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>Slabe</NAME>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Dobre</NAME>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Zelo dobre</NAME>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <FUNCTION>
+        <LOW>001001011011111111011011111111111112011111111111112112001011011111111111011011111111112112111111111112112122011011111111111112011111111111112112111111112112122122</LOW>
+        <ENTERED>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+</ENTERED>
+        <WEIGHTS>10;20;30;10;30</WEIGHTS>
+        <LOCWEIGHTS>18.75;18.75;18.75;25.00;18.75</LOCWEIGHTS>
+        <NORMLOCWEIGHTS>21.43;21.43;21.43;14.29;21.43</NORMLOCWEIGHTS>
+      </FUNCTION>
+      <OPTION>1</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>1</OPTION>
+      <ATTRIBUTE>
+        <NAME>Motor</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Slab</NAME>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Dober</NAME>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Zelo dober</NAME>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>000001011001011111011111111001011111011111111111111112001011111011111111111111112011111111111111112111112122011111111111111112111112122111111112111112122112122222</LOW>
+          <ENTERED>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+</ENTERED>
+          <WEIGHTS>20;20;20;20;20</WEIGHTS>
+          <LOCWEIGHTS>18.75;25.00;18.75;18.75;18.75</LOCWEIGHTS>
+          <NORMLOCWEIGHTS>21.43;14.29;21.43;21.43;21.43</NORMLOCWEIGHTS>
+        </FUNCTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <ATTRIBUTE>
+          <NAME>Izhodna moc (v konjskih moceh)</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nizka</NAME>
+              <DESCRIPTION>0 do 900 konjskih moci</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Visoka</NAME>
+              <DESCRIPTION>900 do 1100 konjskih moci</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Zelo visoka</NAME>
+              <DESCRIPTION>1100 ali več konjskih moci</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Stevilo cilindrov</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Malo</NAME>
+              <DESCRIPTION>0 do 9 cilindrov</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Dovolj</NAME>
+              <DESCRIPTION>9 ali vec cilindrov</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Najvecji navor</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nizek</NAME>
+              <DESCRIPTION>0 Nm do 2500 Nm</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Srednji</NAME>
+              <DESCRIPTION>2500 Nm do 4000 Nm</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Visok</NAME>
+              <DESCRIPTION>4000 Nm ali vec</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Obrati na minuto (RPM)</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nizki</NAME>
+              <DESCRIPTION>0 RPM do 2500 RPM</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Visoki</NAME>
+              <DESCRIPTION>2500 RPM do 2900 RPM</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Zelo visoki</NAME>
+              <DESCRIPTION>2900 RPM ali vec</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Najvisja hitrost</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nizka</NAME>
+              <DESCRIPTION> 0 km/h do 50 km/h</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Visoka</NAME>
+              <DESCRIPTION>50 km/h do 70 km/h</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Zelo visoka</NAME>
+              <DESCRIPTION>70 km/h ali vec</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Oklep</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Podpovprečen</NAME>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Povprečen</NAME>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Nadpovprečen</NAME>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>001012122</LOW>
+          <ENTERED>--+-+-+-+</ENTERED>
+          <WEIGHTS>50;50</WEIGHTS>
+          <LOCWEIGHTS>50.00;50.00</LOCWEIGHTS>
+          <NORMLOCWEIGHTS>50.00;50.00</NORMLOCWEIGHTS>
+        </FUNCTION>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <ATTRIBUTE>
+          <NAME>Kupola</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Podpovprečna</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Povprečna</NAME>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Nadpovprečna</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <FUNCTION>
+            <LOW>011011111112122122222222222</LOW>
+            <ENTERED>+-----+++------------+-----</ENTERED>
+            <WEIGHTS>65;10;25</WEIGHTS>
+            <LOCWEIGHTS>66.67;33.33;0.00</LOCWEIGHTS>
+            <NORMLOCWEIGHTS>66.67;33.33;0.00</NORMLOCWEIGHTS>
+            <CONSIST>False</CONSIST>
+          </FUNCTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <ATTRIBUTE>
+            <NAME>Debelina oklepa spredaj</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Podpovprecna</NAME>
+                <DESCRIPTION>do 100 tock</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Povprecna</NAME>
+                <DESCRIPTION>100 do 130 tock</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nadpovprecna</NAME>
+                <DESCRIPTION>130 tock ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>0</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Debelina oklepa na strani</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Podpovprecna</NAME>
+                <DESCRIPTION>do 90 tock</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Povprecna</NAME>
+                <DESCRIPTION>90 do 110 tock</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nadpovprecna</NAME>
+                <DESCRIPTION>110 tock ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>0</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Debelina oklepa zadaj</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Podpovprecna</NAME>
+                <DESCRIPTION>do 20 tock</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Povprecna</NAME>
+                <DESCRIPTION>20 do 40 tock</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nadpovprecna</NAME>
+                <DESCRIPTION>40 tock ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Trup</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Podpovprečna</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Povprečna</NAME>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Nadpovprečna</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <FUNCTION>
+            <LOW>000000000101011111010111111111111112111111111112121222</LOW>
+            <ENTERED>+----+-----+---++------+-+--+---+------++---+--++-----</ENTERED>
+            <WEIGHTS>35;25;15;25</WEIGHTS>
+            <LOCWEIGHTS>28.32;27.27;17.83;26.57</LOCWEIGHTS>
+            <NORMLOCWEIGHTS>32.66;31.45;20.56;15.32</NORMLOCWEIGHTS>
+          </FUNCTION>
+          <OPTION>0</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <ATTRIBUTE>
+            <NAME>Debelina oklepa spredaj</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Podpovprecna</NAME>
+                <DESCRIPTION>do 100 tock</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Povprecna</NAME>
+                <DESCRIPTION>100 do 130 tock</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nadpovprecna</NAME>
+                <DESCRIPTION>130 tock ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>0</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Debelina oklepa na strani</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Podpovprecna</NAME>
+                <DESCRIPTION>do 60 tock</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Povprecna</NAME>
+                <DESCRIPTION>60 do 80 tock</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nadpovprecna</NAME>
+                <DESCRIPTION>80 tock ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Debelina oklepa zadaj</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Podpovprecna</NAME>
+                <DESCRIPTION>do 30 tock</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Povprecna</NAME>
+                <DESCRIPTION>30 do 40 tock</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nadpovprecna</NAME>
+                <DESCRIPTION>40 tock ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>0</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Oddaljenost od tal</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Podpovprecna</NAME>
+                <DESCRIPTION>do 50 cm</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Obicajna</NAME>
+                <DESCRIPTION>50 cm ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>1</OPTION>
+          </ATTRIBUTE>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Oborozitev</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Podpovprecna</NAME>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Povprecna</NAME>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Nadpovprecna</NAME>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>011111122</LOW>
+          <ENTERED>+--+-+-++</ENTERED>
+          <WEIGHTS>50;50</WEIGHTS>
+          <LOCWEIGHTS>81.82;18.18</LOCWEIGHTS>
+          <NORMLOCWEIGHTS>81.82;18.18</NORMLOCWEIGHTS>
+        </FUNCTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+        <ATTRIBUTE>
+          <NAME>Primarna oborozitev</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Podpovprecna</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Povprecna</NAME>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Nadpovprecna</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <FUNCTION>
+            <LOW>001012</LOW>
+            <ENTERED>--+--+</ENTERED>
+            <WEIGHTS>50;50</WEIGHTS>
+            <LOCWEIGHTS>64.00;36.00</LOCWEIGHTS>
+            <NORMLOCWEIGHTS>47.06;52.94</NORMLOCWEIGHTS>
+          </FUNCTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <ATTRIBUTE>
+            <NAME>Kaliber</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Obicajen</NAME>
+                <DESCRIPTION>0 do 125mm</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Visok</NAME>
+                <DESCRIPTION>125m ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>0</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>1</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Efektivni domet</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Nizek</NAME>
+                <DESCRIPTION>0 do 1500 metrov</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Obicajen</NAME>
+                <DESCRIPTION>1500 metrov do 2500 metrov</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Visok</NAME>
+                <DESCRIPTION>2500 metrov ali vec</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Sekundarna oborozitev</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Podpovprecna</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Povprecna</NAME>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Nadpovprecna</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <FUNCTION>
+            <LOW>0012</LOW>
+            <ENTERED>-+++</ENTERED>
+            <WEIGHTS>50;50</WEIGHTS>
+            <LOCWEIGHTS>75.00;25.00</LOCWEIGHTS>
+            <NORMLOCWEIGHTS>75.00;25.00</NORMLOCWEIGHTS>
+          </FUNCTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <ATTRIBUTE>
+            <NAME>Protizracne sposobnosti</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Nima</NAME>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Ima</NAME>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Stevilo oborozitev</NAME>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Osnovno</NAME>
+                <DESCRIPTION>0 do 3 sekundarnih oborozitev</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nadgrajeno</NAME>
+                <DESCRIPTION>3 ali vec sekundarnih oborozitev</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>0</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+          </ATTRIBUTE>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Strelivo</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Običajno</NAME>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Nadpovprečno</NAME>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>01</LOW>
+        </FUNCTION>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>1</OPTION>
+        <ATTRIBUTE>
+          <NAME>Število nabojev</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Običajno</NAME>
+              <DESCRIPTION>0 do 45 nabojev</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Nadpovprečno</NAME>
+              <DESCRIPTION>45 nabojev ali več</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>0</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>1</OPTION>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Sistemi</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Podpovprečni</NAME>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Povprečni</NAME>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Nadpovprečni</NAME>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>0001011201121222</LOW>
+          <ENTERED>+--------------+</ENTERED>
+          <WEIGHTS>25;25;25;25</WEIGHTS>
+          <LOCWEIGHTS>25.00;25.00;25.00;25.00</LOCWEIGHTS>
+          <NORMLOCWEIGHTS>25.00;25.00;25.00;25.00</NORMLOCWEIGHTS>
+        </FUNCTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>0</OPTION>
+        <ATTRIBUTE>
+          <NAME>Sistem za nadzor streljanja</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nima</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Ima</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>0</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Laserski daljinomer</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nima</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Ima</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>0</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Stabilizacija primarne oborožitve</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nima</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Ima</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>0</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Sistem nočnega vida</NAME>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nima</NAME>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Ima</NAME>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>0</OPTION>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+    </ATTRIBUTE>
+    <ATTRIBUTE>
+      <NAME>Ostale specifikacije</NAME>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>Slabe</NAME>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Dobre</NAME>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Zelo dobre</NAME>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <FUNCTION>
+        <LOW>000001001011011111111111112001011011111111111112112122011111111111112112122122222</LOW>
+        <ENTERED>+-------------------------------------------------------------------------------+</ENTERED>
+        <WEIGHTS>25;40;10;25</WEIGHTS>
+        <LOCWEIGHTS>25.00;37.50;12.50;25.00</LOCWEIGHTS>
+        <NORMLOCWEIGHTS>25.00;37.50;12.50;25.00</NORMLOCWEIGHTS>
+      </FUNCTION>
+      <OPTION>0</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>0</OPTION>
+      <OPTION>2</OPTION>
+      <ATTRIBUTE>
+        <NAME>Starost (v letih)</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Zelo star</NAME>
+            <DESCRIPTION>20 let ali več</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Star</NAME>
+            <DESCRIPTION>od 10 do 20 let</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Moderen</NAME>
+            <DESCRIPTION>manj kot 10 let</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Cena (v evrih)</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Visoka</NAME>
+            <DESCRIPTION>nad 6 milijonov $</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Običajna</NAME>
+            <DESCRIPTION>5 milijonov $ do 6 milijonov $</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Nizka</NAME>
+            <DESCRIPTION>0 milijonov $ do 5 milijonov $</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>1</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Število posadke</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Visoko</NAME>
+            <DESCRIPTION>več kot 4 člani</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Običajno</NAME>
+            <DESCRIPTION>4 člani</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Nizko</NAME>
+            <DESCRIPTION>0 do 4 člani</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Domet (v km)</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Nizek</NAME>
+            <DESCRIPTION>0 km do 350 km</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Običajen</NAME>
+            <DESCRIPTION>350 km do 500 km</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Visok</NAME>
+            <DESCRIPTION>500 km ali več</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+      </ATTRIBUTE>
+    </ATTRIBUTE>
+    <ATTRIBUTE>
+      <NAME>Dimenzije</NAME>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>Slabe</NAME>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Dobre</NAME>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Zelo dobre</NAME>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <FUNCTION>
+        <LOW>0101011201121212</LOW>
+        <ENTERED>+--------------+</ENTERED>
+        <WEIGHTS>20;20;25;35</WEIGHTS>
+        <LOCWEIGHTS>20.00;20.00;20.00;40.00</LOCWEIGHTS>
+        <NORMLOCWEIGHTS>20.00;20.00;20.00;40.00</NORMLOCWEIGHTS>
+      </FUNCTION>
+      <OPTION>1</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>2</OPTION>
+      <ATTRIBUTE>
+        <NAME>Dolžina</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Nadpovprečna</NAME>
+            <DESCRIPTION>10 metrov ali več</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Običajna</NAME>
+            <DESCRIPTION>0 do 10 metrov</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Širina</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Nadpovprečna</NAME>
+            <DESCRIPTION>4 metre ali več</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Običajna</NAME>
+            <DESCRIPTION>0 do 4 metre</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Višina</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Nadpovprečna</NAME>
+            <DESCRIPTION>3 metre ali več</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Običajna</NAME>
+            <DESCRIPTION>0 do 3 metre</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Teža (v kg)</NAME>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Običajna</NAME>
+            <DESCRIPTION>nad 50 ton</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Nizka</NAME>
+            <DESCRIPTION>0 do 50 ton</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>1</OPTION>
+      </ATTRIBUTE>
+    </ATTRIBUTE>
+  </ATTRIBUTE>
+</DEXi>

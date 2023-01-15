@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+  <head>
+  </head>
+
+  <body style="background-color: bisque">
+      <center>
+    <div class="container">
+      <div class="py-5 text-center">
+        <h2>Rezultati</h2>
+        <p class="lead">Stran prikazuje rezultate glede na dane atribute.</p>
+        <p>Vrednosti v [ ] oklepajih predstavljajo ocene kategorij.</p>
+      </div>
+        
+        <div style="background-color: steelblue; color: white; width: 30%; padding: 0.3%; border: 2px solid bisque; font-weight: bold">
+            <div class="form-group" style="margin: 5px 0px">
+                Kvantitativni rezultati
+            </div>
+        </div>
+        
+      {% for key, value in quantitative_response.items %}
+        <div style="background-color: seagreen; color: white; width: 30%; padding: 0.3%; border: 2px solid bisque">
+            <div class="form-group" style="margin: 5px 0px">
+                <span>{{ key }}: </span>
+                <span span style="font-weight: bold">{{ value }}</span>
+            </div>
+        </div>
+      {% endfor %}
+        
+        <div style="background-color: steelblue; color: white; width: 30%; padding: 0.3%; border: 2px solid bisque; font-weight: bold">
+            <div class="form-group" style="margin: 5px 0px">
+                Kvalitativni rezultati
+            </div>
+        </div>
+        
+    {% for key, value in qualitative_response.items %}
+        <div style="background-color: seagreen; color: white; width: 30%; padding: 0.3%; border: 2px solid bisque">
+            <div class="form-group" style="margin: 5px 0px">
+                <span>{{ key }}_qq: </span>
+                <span style="font-weight: bold">{{ value }}</span>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+      </center>
+  </body>
+</html>

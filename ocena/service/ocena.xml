@@ -1,0 +1,3707 @@
+<MODEL>
+  <SCALE>
+    <NAME>Ocena tanka</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Slab</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dober</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo dober</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Tehnicne specifikacije</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Slabe</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dobre</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo dobre</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Izhodna moc v konjskih moceh</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nizka</NAME>
+      <DESCRIPTION>0 do 900 konjskih moci</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visoka</NAME>
+      <DESCRIPTION>900 do 1100 konjskih moci</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo visoka</NAME>
+      <DESCRIPTION>1100 ali vec konjskih moci</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Stevilo cilindrov</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Malo</NAME>
+      <DESCRIPTION>0 do 9 cilindrov</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dovolj</NAME>
+      <DESCRIPTION>9 ali vec cilindrov</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Najvecji navor</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nizek</NAME>
+      <DESCRIPTION>0 Nm do 2500 Nm</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Srednji</NAME>
+      <DESCRIPTION>2500 Nm do 4000 Nm</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visok</NAME>
+      <DESCRIPTION>4000 Nm ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Obrati na minuto RPM</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nizki</NAME>
+      <DESCRIPTION>0 RPM do 2500 RPM</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visoki</NAME>
+      <DESCRIPTION>2500 RPM do 2900 RPM</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo visoki</NAME>
+      <DESCRIPTION>2900 RPM ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Najvisja hitrost</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nizka</NAME>
+      <DESCRIPTION> 0 kmh do 50 kmh</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visoka</NAME>
+      <DESCRIPTION>50 kmh do 70 kmh</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo visoka</NAME>
+      <DESCRIPTION>70 kmh ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Oklep</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecen</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecen</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecen</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Kupola</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecna</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecna</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Debelina oklepa kupole spredaj</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecna</NAME>
+      <DESCRIPTION>do 100 tock</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecna</NAME>
+      <DESCRIPTION>100 do 130 tock</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>130 tock ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Debelina oklepa kupole na strani</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecna</NAME>
+      <DESCRIPTION>do 90 tock</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecna</NAME>
+      <DESCRIPTION>90 do 110 tock</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>110 tock ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Debelina oklepa kupole zadaj</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecna</NAME>
+      <DESCRIPTION>do 20 tock</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecna</NAME>
+      <DESCRIPTION>20 do 40 tock</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>40 tock ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Debelina oklepa trupa na strani</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecna</NAME>
+      <DESCRIPTION>do 60 tock</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecna</NAME>
+      <DESCRIPTION>60 do 80 tock</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>80 tock ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Debelina oklepa trupa zadaj</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecna</NAME>
+      <DESCRIPTION>do 30 tock</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecna</NAME>
+      <DESCRIPTION>30 do 40 tock</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>40 tock ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Oddaljenost od tal</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecna</NAME>
+      <DESCRIPTION>do 50 cm</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajna</NAME>
+      <DESCRIPTION>50 cm ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Kaliber</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Obicajen</NAME>
+      <DESCRIPTION>0 do 125mm</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visok</NAME>
+      <DESCRIPTION>125mm ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Efektivni domet</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nizek</NAME>
+      <DESCRIPTION>0 do 1500 metrov</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajen</NAME>
+      <DESCRIPTION>1500 metrov do 2500 metrov</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visok</NAME>
+      <DESCRIPTION>2500 metrov ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Protizracne sposobnosti</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nima</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Ima</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Stevilo oborozitev</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Osnovno</NAME>
+      <DESCRIPTION>0 do 3 sekundarnih oborozitev</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadgrajeno</NAME>
+      <DESCRIPTION>3 ali vec sekundarnih oborozitev</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Strelivo</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Obicajno</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecno</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Stevilo nabojev</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Obicajno</NAME>
+      <DESCRIPTION>0 do 45 nabojev</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecno</NAME>
+      <DESCRIPTION>45 nabojev ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Sistemi</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Podpovprecni</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Povprecni</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nadpovprecni</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Starost v letih</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Zelo star</NAME>
+      <DESCRIPTION>20 let ali vec</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Star</NAME>
+      <DESCRIPTION>od 10 do 20 let</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Moderen</NAME>
+      <DESCRIPTION>manj kot 10 let</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Cena v evrih</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Visoka</NAME>
+      <DESCRIPTION>nad 6 milijonov</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajna</NAME>
+      <DESCRIPTION>5 milijonov do 6 milijonov</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nizka</NAME>
+      <DESCRIPTION>0 milijonov do 5 milijonov</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Stevilo posadke</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Visoko</NAME>
+      <DESCRIPTION>vec kot 4 clani</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajno</NAME>
+      <DESCRIPTION>4 clani</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nizko</NAME>
+      <DESCRIPTION>0 do 4 clani</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Domet v km</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nizek</NAME>
+      <DESCRIPTION>0 km do 350 km</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajen</NAME>
+      <DESCRIPTION>350 km do 500 km</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visok</NAME>
+      <DESCRIPTION>500 km ali vec</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Dolzina</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>10 metrov ali vec</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajna</NAME>
+      <DESCRIPTION>0 do 10 metrov</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Sirina</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>4 metre ali vec</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajna</NAME>
+      <DESCRIPTION>0 do 4 metre</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Visina</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nadpovprecna</NAME>
+      <DESCRIPTION>3 metre ali vec</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Obicajna</NAME>
+      <DESCRIPTION>0 do 3 metre</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Teza v kg</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Obicajna</NAME>
+      <DESCRIPTION>nad 50 ton</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nizka</NAME>
+      <DESCRIPTION>0 do 50 ton</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <ATTRIBUTE>
+    <NAME>Ocena tanka</NAME>
+    <SCALE>Ocena tanka</SCALE>
+    <FUNCTION>Ocena tanka</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Tehnicne specifikacije</NAME>
+    <PARENT>Ocena tanka</PARENT>
+    <SCALE>Tehnicne specifikacije</SCALE>
+    <FUNCTION>Tehnicne specifikacije</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Motor</NAME>
+    <PARENT>Tehnicne specifikacije</PARENT>
+    <SCALE>Ocena tanka</SCALE>
+    <FUNCTION>Motor</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Izhodna moc v konjskih moceh</NAME>
+    <PARENT>Motor</PARENT>
+    <SCALE>Izhodna moc v konjskih moceh</SCALE>
+    <FUNCTION>Izhodna moc v konjskih moceh</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Stevilo cilindrov</NAME>
+    <PARENT>Motor</PARENT>
+    <SCALE>Stevilo cilindrov</SCALE>
+    <FUNCTION>Stevilo cilindrov</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Najvecji navor</NAME>
+    <PARENT>Motor</PARENT>
+    <SCALE>Najvecji navor</SCALE>
+    <FUNCTION>Najvecji navor</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Obrati na minuto RPM</NAME>
+    <PARENT>Motor</PARENT>
+    <SCALE>Obrati na minuto RPM</SCALE>
+    <FUNCTION>Obrati na minuto RPM</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Najvisja hitrost</NAME>
+    <PARENT>Motor</PARENT>
+    <SCALE>Najvisja hitrost</SCALE>
+    <FUNCTION>Najvisja hitrost</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Oklep</NAME>
+    <PARENT>Tehnicne specifikacije</PARENT>
+    <SCALE>Oklep</SCALE>
+    <FUNCTION>Oklep</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Kupola</NAME>
+    <PARENT>Oklep</PARENT>
+    <SCALE>Kupola</SCALE>
+    <FUNCTION>Kupola</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Debelina oklepa kupole spredaj</NAME>
+    <PARENT>Kupola</PARENT>
+    <SCALE>Debelina oklepa kupole spredaj</SCALE>
+    <FUNCTION>Debelina oklepa kupole spredaj</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Debelina oklepa kupole na strani</NAME>
+    <PARENT>Kupola</PARENT>
+    <SCALE>Debelina oklepa kupole na strani</SCALE>
+    <FUNCTION>Debelina oklepa kupole na strani</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Debelina oklepa kupole zadaj</NAME>
+    <PARENT>Kupola</PARENT>
+    <SCALE>Debelina oklepa kupole zadaj</SCALE>
+    <FUNCTION>Debelina oklepa kupole zadaj</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Trup</NAME>
+    <PARENT>Oklep</PARENT>
+    <SCALE>Kupola</SCALE>
+    <FUNCTION>Trup</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Debelina oklepa trupa spredaj</NAME>
+    <PARENT>Trup</PARENT>
+    <SCALE>Debelina oklepa kupole spredaj</SCALE>
+    <FUNCTION>Debelina oklepa trupa spredaj</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Debelina oklepa trupa na strani</NAME>
+    <PARENT>Trup</PARENT>
+    <SCALE>Debelina oklepa trupa na strani</SCALE>
+    <FUNCTION>Debelina oklepa trupa na strani</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Debelina oklepa trupa zadaj</NAME>
+    <PARENT>Trup</PARENT>
+    <SCALE>Debelina oklepa trupa zadaj</SCALE>
+    <FUNCTION>Debelina oklepa trupa zadaj</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Oddaljenost od tal</NAME>
+    <PARENT>Trup</PARENT>
+    <SCALE>Oddaljenost od tal</SCALE>
+    <FUNCTION>Oddaljenost od tal</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Oborozitev</NAME>
+    <PARENT>Tehnicne specifikacije</PARENT>
+    <SCALE>Kupola</SCALE>
+    <FUNCTION>Oborozitev</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Primarna oborozitev</NAME>
+    <PARENT>Oborozitev</PARENT>
+    <SCALE>Kupola</SCALE>
+    <FUNCTION>Primarna oborozitev</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Kaliber</NAME>
+    <PARENT>Primarna oborozitev</PARENT>
+    <SCALE>Kaliber</SCALE>
+    <FUNCTION>Kaliber</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Efektivni domet</NAME>
+    <PARENT>Primarna oborozitev</PARENT>
+    <SCALE>Efektivni domet</SCALE>
+    <FUNCTION>Efektivni domet</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Sekundarna oborozitev</NAME>
+    <PARENT>Oborozitev</PARENT>
+    <SCALE>Kupola</SCALE>
+    <FUNCTION>Sekundarna oborozitev</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Protizracne sposobnosti</NAME>
+    <PARENT>Sekundarna oborozitev</PARENT>
+    <SCALE>Protizracne sposobnosti</SCALE>
+    <FUNCTION>Protizracne sposobnosti</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Stevilo oborozitev</NAME>
+    <PARENT>Sekundarna oborozitev</PARENT>
+    <SCALE>Stevilo oborozitev</SCALE>
+    <FUNCTION>Stevilo oborozitev</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Strelivo</NAME>
+    <PARENT>Tehnicne specifikacije</PARENT>
+    <SCALE>Strelivo</SCALE>
+    <FUNCTION>Strelivo</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Stevilo nabojev</NAME>
+    <PARENT>Strelivo</PARENT>
+    <SCALE>Stevilo nabojev</SCALE>
+    <FUNCTION>Stevilo nabojev</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Sistemi</NAME>
+    <PARENT>Tehnicne specifikacije</PARENT>
+    <SCALE>Sistemi</SCALE>
+    <FUNCTION>Sistemi</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Sistem za nadzor streljanja</NAME>
+    <PARENT>Sistemi</PARENT>
+    <SCALE>Protizracne sposobnosti</SCALE>
+    <FUNCTION>Sistem za nadzor streljanja</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Laserski daljinomer</NAME>
+    <PARENT>Sistemi</PARENT>
+    <SCALE>Protizracne sposobnosti</SCALE>
+    <FUNCTION>Laserski daljinomer</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Stabilizacija primarne oborozitve</NAME>
+    <PARENT>Sistemi</PARENT>
+    <SCALE>Protizracne sposobnosti</SCALE>
+    <FUNCTION>Stabilizacija primarne oborozitve</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Sistem nocnega vida</NAME>
+    <PARENT>Sistemi</PARENT>
+    <SCALE>Protizracne sposobnosti</SCALE>
+    <FUNCTION>Sistem nocnega vida</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Ostale specifikacije</NAME>
+    <PARENT>Ocena tanka</PARENT>
+    <SCALE>Tehnicne specifikacije</SCALE>
+    <FUNCTION>Ostale specifikacije</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Starost v letih</NAME>
+    <PARENT>Ostale specifikacije</PARENT>
+    <SCALE>Starost v letih</SCALE>
+    <FUNCTION>Starost v letih</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Cena v evrih</NAME>
+    <PARENT>Ostale specifikacije</PARENT>
+    <SCALE>Cena v evrih</SCALE>
+    <FUNCTION>Cena v evrih</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Stevilo posadke</NAME>
+    <PARENT>Ostale specifikacije</PARENT>
+    <SCALE>Stevilo posadke</SCALE>
+    <FUNCTION>Stevilo posadke</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Domet v km</NAME>
+    <PARENT>Ostale specifikacije</PARENT>
+    <SCALE>Domet v km</SCALE>
+    <FUNCTION>Domet v km</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Dimenzije</NAME>
+    <PARENT>Ocena tanka</PARENT>
+    <SCALE>Tehnicne specifikacije</SCALE>
+    <FUNCTION>Dimenzije</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Dolzina</NAME>
+    <PARENT>Dimenzije</PARENT>
+    <SCALE>Dolzina</SCALE>
+    <FUNCTION>Dolzina</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Sirina</NAME>
+    <PARENT>Dimenzije</PARENT>
+    <SCALE>Sirina</SCALE>
+    <FUNCTION>Sirina</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Visina</NAME>
+    <PARENT>Dimenzije</PARENT>
+    <SCALE>Visina</SCALE>
+    <FUNCTION>Visina</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Teza v kg</NAME>
+    <PARENT>Dimenzije</PARENT>
+    <SCALE>Teza v kg</SCALE>
+    <FUNCTION>Teza v kg</FUNCTION>
+  </ATTRIBUTE>
+  <FUNCTION>
+    <NAME>Ocena tanka</NAME>
+    <ATTRLIST>Tehnicne specifikacije;Ostale specifikacije;Dimenzije</ATTRLIST>
+    <RULE>
+      <CONDITION>Slabe;Slabe;Slabe</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Slabe;Dobre</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Slabe;Zelo dobre</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Dobre;Slabe</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Dobre;Dobre</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Dobre;Zelo dobre</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Zelo dobre;Slabe</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Zelo dobre;Dobre</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slabe;Zelo dobre;Zelo dobre</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Slabe;Slabe</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Slabe;Dobre</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Slabe;Zelo dobre</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Dobre;Slabe</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Dobre;Dobre</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Dobre;Zelo dobre</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Zelo dobre;Slabe</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Zelo dobre;Dobre</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dobre;Zelo dobre;Zelo dobre</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Slabe;Slabe</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Slabe;Dobre</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Slabe;Zelo dobre</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Dobre;Slabe</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Dobre;Dobre</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Dobre;Zelo dobre</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Zelo dobre;Slabe</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Zelo dobre;Dobre</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dobre;Zelo dobre;Zelo dobre</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Tehnicne specifikacije</NAME>
+    <ATTRLIST>Motor;Oklep;Oborozitev;Strelivo;Sistemi</ATTRLIST>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Podpovprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Povprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Nadpovprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Podpovprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Povprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Nadpovprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Podpovprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Povprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Podpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Podpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Podpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Podpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Podpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Podpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Povprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Povprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Povprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Povprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Povprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Povprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Nadpovprecna;Obicajno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Nadpovprecna;Obicajno;Povprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Nadpovprecna;Obicajno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Nadpovprecna;Nadpovprecno;Podpovprecni</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Nadpovprecna;Nadpovprecno;Povprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo dober;Nadpovprecen;Nadpovprecna;Nadpovprecno;Nadpovprecni</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Motor</NAME>
+    <ATTRLIST>Izhodna moc v konjskih moceh;Stevilo cilindrov;Najvecji navor;Obrati na minuto RPM;Najvisja hitrost</ATTRLIST>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Nizki;Visoka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Visoki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Visoki;Visoka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Nizek;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Nizki;Visoka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Visoki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Srednji;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Malo;Visok;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Nizki;Visoka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Visoki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Nizek;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Srednji;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nizka;Dovolj;Visok;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Nizki;Visoka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Visoki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Nizek;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Srednji;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Malo;Visok;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Nizek;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Srednji;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka;Dovolj;Visok;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Nizki;Nizka</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Nizek;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Srednji;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Malo;Visok;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Nizek;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Visoki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Srednji;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Nizki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Nizki;Visoka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Nizki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Visoki;Nizka</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Visoki;Visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Zelo visoki;Nizka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Zelo visoki;Visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo visoka;Dovolj;Visok;Zelo visoki;Zelo visoka</CONDITION>
+      <RESULT>Zelo dober</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Oklep</NAME>
+    <ATTRLIST>Kupola;Trup</ATTRLIST>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna</CONDITION>
+      <RESULT>Podpovprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Povprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna</CONDITION>
+      <RESULT>Povprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna</CONDITION>
+      <RESULT>Nadpovprecen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecen</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Kupola</NAME>
+    <ATTRLIST>Debelina oklepa kupole spredaj;Debelina oklepa kupole na strani;Debelina oklepa kupole zadaj</ATTRLIST>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Povprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Povprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Nadpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Povprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Povprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Povprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Povprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Povprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Povprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Povprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Trup</NAME>
+    <ATTRLIST>Debelina oklepa trupa spredaj;Debelina oklepa trupa na strani;Debelina oklepa trupa zadaj;Oddaljenost od tal</ATTRLIST>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Podpovprecna;Obicajna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Povprecna;Obicajna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Oborozitev</NAME>
+    <ATTRLIST>Primarna oborozitev;Sekundarna oborozitev</ATTRLIST>
+    <RULE>
+      <CONDITION>Podpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Povprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Podpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Povprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Povprecna;Nadpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Podpovprecna</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Povprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Primarna oborozitev</NAME>
+    <ATTRLIST>Kaliber;Efektivni domet</ATTRLIST>
+    <RULE>
+      <CONDITION>Obicajen;Nizek</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajen;Obicajen</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajen;Visok</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visok;Nizek</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visok;Obicajen</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visok;Visok</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Sekundarna oborozitev</NAME>
+    <ATTRLIST>Protizracne sposobnosti;Stevilo oborozitev</ATTRLIST>
+    <RULE>
+      <CONDITION>Nima;Osnovno</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Nadgrajeno</CONDITION>
+      <RESULT>Podpovprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Osnovno</CONDITION>
+      <RESULT>Povprecna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Nadgrajeno</CONDITION>
+      <RESULT>Nadpovprecna</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Strelivo</NAME>
+    <ATTRLIST>Stevilo nabojev</ATTRLIST>
+    <RULE>
+      <CONDITION>Obicajno</CONDITION>
+      <RESULT>Obicajno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecno</CONDITION>
+      <RESULT>Nadpovprecno</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Sistemi</NAME>
+    <ATTRLIST>Sistem za nadzor streljanja;Laserski daljinomer;Stabilizacija primarne oborozitve;Sistem nocnega vida</ATTRLIST>
+    <RULE>
+      <CONDITION>Nima;Nima;Nima;Nima</CONDITION>
+      <RESULT>Podpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Nima;Nima;Ima</CONDITION>
+      <RESULT>Podpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Nima;Ima;Nima</CONDITION>
+      <RESULT>Podpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Nima;Ima;Ima</CONDITION>
+      <RESULT>Povprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Ima;Nima;Nima</CONDITION>
+      <RESULT>Podpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Ima;Nima;Ima</CONDITION>
+      <RESULT>Povprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Ima;Ima;Nima</CONDITION>
+      <RESULT>Povprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nima;Ima;Ima;Ima</CONDITION>
+      <RESULT>Nadpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Nima;Nima;Nima</CONDITION>
+      <RESULT>Podpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Nima;Nima;Ima</CONDITION>
+      <RESULT>Povprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Nima;Ima;Nima</CONDITION>
+      <RESULT>Povprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Nima;Ima;Ima</CONDITION>
+      <RESULT>Nadpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Ima;Nima;Nima</CONDITION>
+      <RESULT>Povprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Ima;Nima;Ima</CONDITION>
+      <RESULT>Nadpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Ima;Ima;Nima</CONDITION>
+      <RESULT>Nadpovprecni</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Ima;Ima;Ima;Ima</CONDITION>
+      <RESULT>Nadpovprecni</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Ostale specifikacije</NAME>
+    <ATTRLIST>Starost v letih;Cena v evrih;Stevilo posadke;Domet v km</ATTRLIST>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Visoko;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Visoko;Obicajen</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Visoko;Visok</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Obicajno;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Obicajno;Obicajen</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Obicajno;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Nizko;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Nizko;Obicajen</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Visoka;Nizko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Visoko;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Visoko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Visoko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Obicajno;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Obicajno;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Obicajno;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Nizko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Nizko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Obicajna;Nizko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Visoko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Visoko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Visoko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Obicajno;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Obicajno;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Obicajno;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Nizko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Nizko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo star;Nizka;Nizko;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Visoko;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Visoko;Obicajen</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Visoko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Obicajno;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Obicajno;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Obicajno;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Nizko;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Nizko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Visoka;Nizko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Visoko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Visoko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Visoko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Obicajno;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Obicajno;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Obicajno;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Nizko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Nizko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Obicajna;Nizko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Visoko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Visoko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Visoko;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Obicajno;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Obicajno;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Obicajno;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Nizko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Nizko;Obicajen</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Star;Nizka;Nizko;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Visoko;Nizek</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Visoko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Visoko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Obicajno;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Obicajno;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Obicajno;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Nizko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Nizko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Visoka;Nizko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Visoko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Visoko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Visoko;Visok</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Obicajno;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Obicajno;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Obicajno;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Nizko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Nizko;Obicajen</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Obicajna;Nizko;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Visoko;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Visoko;Obicajen</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Visoko;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Obicajno;Nizek</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Obicajno;Obicajen</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Obicajno;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Nizko;Nizek</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Nizko;Obicajen</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Moderen;Nizka;Nizko;Visok</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Dimenzije</NAME>
+    <ATTRLIST>Dolzina;Sirina;Visina;Teza v kg</ATTRLIST>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Nadpovprecna;Nizka</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Obicajna;Obicajna</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Nadpovprecna;Obicajna;Nizka</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Obicajna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Obicajna;Nadpovprecna;Nizka</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Obicajna;Obicajna;Obicajna</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nadpovprecna;Obicajna;Obicajna;Nizka</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Nadpovprecna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Slabe</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Nadpovprecna;Nadpovprecna;Nizka</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Nadpovprecna;Obicajna;Obicajna</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Nadpovprecna;Obicajna;Nizka</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Obicajna;Nadpovprecna;Obicajna</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Obicajna;Nadpovprecna;Nizka</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Obicajna;Obicajna;Obicajna</CONDITION>
+      <RESULT>Dobre</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Obicajna;Obicajna;Obicajna;Nizka</CONDITION>
+      <RESULT>Zelo dobre</RESULT>
+    </RULE>
+  </FUNCTION>
+  <OPTION>
+    <NAME>Leopard 2</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izhodna moc v konjskih moceh</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo cilindrov</ATTRIBUTE>
+      <VALUE>Dovolj</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvecji navor</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Obrati na minuto RPM</ATTRIBUTE>
+      <VALUE>Visoki</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvisja hitrost</ATTRIBUTE>
+      <VALUE>Visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole spredaj</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole na strani</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole zadaj</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa spredaj</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa na strani</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa zadaj</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Oddaljenost od tal</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Kaliber</ATTRIBUTE>
+      <VALUE>Obicajen</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Efektivni domet</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Protizracne sposobnosti</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo oborozitev</ATTRIBUTE>
+      <VALUE>Osnovno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo nabojev</ATTRIBUTE>
+      <VALUE>Obicajno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem za nadzor streljanja</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Laserski daljinomer</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stabilizacija primarne oborozitve</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem nocnega vida</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Starost v letih</ATTRIBUTE>
+      <VALUE>Zelo star</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena v evrih</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo posadke</ATTRIBUTE>
+      <VALUE>Obicajno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Domet v km</ATTRIBUTE>
+      <VALUE>Nizek</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Dolzina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sirina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Visina</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza v kg</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>Leopard 2 alternativa</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izhodna moc v konjskih moceh</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo cilindrov</ATTRIBUTE>
+      <VALUE>Dovolj</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvecji navor</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Obrati na minuto RPM</ATTRIBUTE>
+      <VALUE>Zelo visoki</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvisja hitrost</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole spredaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole na strani</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole zadaj</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa spredaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa na strani</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa zadaj</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Oddaljenost od tal</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Kaliber</ATTRIBUTE>
+      <VALUE>Obicajen</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Efektivni domet</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Protizracne sposobnosti</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo oborozitev</ATTRIBUTE>
+      <VALUE>Osnovno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo nabojev</ATTRIBUTE>
+      <VALUE>Obicajno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem za nadzor streljanja</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Laserski daljinomer</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stabilizacija primarne oborozitve</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem nocnega vida</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Starost v letih</ATTRIBUTE>
+      <VALUE>Moderen</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena v evrih</ATTRIBUTE>
+      <VALUE>Visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo posadke</ATTRIBUTE>
+      <VALUE>Obicajno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Domet v km</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Dolzina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sirina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Visina</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza v kg</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>T72</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izhodna moc v konjskih moceh</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo cilindrov</ATTRIBUTE>
+      <VALUE>Dovolj</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvecji navor</ATTRIBUTE>
+      <VALUE>Srednji</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Obrati na minuto RPM</ATTRIBUTE>
+      <VALUE>Nizki</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvisja hitrost</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole spredaj</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole na strani</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole zadaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa spredaj</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa na strani</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa zadaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Oddaljenost od tal</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Kaliber</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Efektivni domet</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Protizracne sposobnosti</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo oborozitev</ATTRIBUTE>
+      <VALUE>Osnovno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo nabojev</ATTRIBUTE>
+      <VALUE>Obicajno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem za nadzor streljanja</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Laserski daljinomer</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stabilizacija primarne oborozitve</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem nocnega vida</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Starost v letih</ATTRIBUTE>
+      <VALUE>Zelo star</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena v evrih</ATTRIBUTE>
+      <VALUE>Nizka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo posadke</ATTRIBUTE>
+      <VALUE>Nizko</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Domet v km</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Dolzina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sirina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Visina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza v kg</ATTRIBUTE>
+      <VALUE>Nizka</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>M1A2 SEP</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izhodna moc v konjskih moceh</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo cilindrov</ATTRIBUTE>
+      <VALUE>Dovolj</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvecji navor</ATTRIBUTE>
+      <VALUE>Srednji</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Obrati na minuto RPM</ATTRIBUTE>
+      <VALUE>Zelo visoki</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvisja hitrost</ATTRIBUTE>
+      <VALUE>Visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole spredaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole na strani</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole zadaj</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa spredaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa na strani</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa zadaj</ATTRIBUTE>
+      <VALUE>Povprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Oddaljenost od tal</ATTRIBUTE>
+      <VALUE>Podpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Kaliber</ATTRIBUTE>
+      <VALUE>Obicajen</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Efektivni domet</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Protizracne sposobnosti</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo oborozitev</ATTRIBUTE>
+      <VALUE>Nadgrajeno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo nabojev</ATTRIBUTE>
+      <VALUE>Obicajno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem za nadzor streljanja</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Laserski daljinomer</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stabilizacija primarne oborozitve</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem nocnega vida</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Starost v letih</ATTRIBUTE>
+      <VALUE>Zelo star</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena v evrih</ATTRIBUTE>
+      <VALUE>Visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo posadke</ATTRIBUTE>
+      <VALUE>Obicajno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Domet v km</ATTRIBUTE>
+      <VALUE>Obicajen</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Dolzina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sirina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Visina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza v kg</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>X1</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izhodna moc v konjskih moceh</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo cilindrov</ATTRIBUTE>
+      <VALUE>Dovolj</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvecji navor</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Obrati na minuto RPM</ATTRIBUTE>
+      <VALUE>Zelo visoki</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Najvisja hitrost</ATTRIBUTE>
+      <VALUE>Zelo visoka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole spredaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole na strani</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa kupole zadaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa spredaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa na strani</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Debelina oklepa trupa zadaj</ATTRIBUTE>
+      <VALUE>Nadpovprecna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Oddaljenost od tal</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Kaliber</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Efektivni domet</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Protizracne sposobnosti</ATTRIBUTE>
+      <VALUE>Ima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo oborozitev</ATTRIBUTE>
+      <VALUE>Nadgrajeno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo nabojev</ATTRIBUTE>
+      <VALUE>Nadpovprecno</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem za nadzor streljanja</ATTRIBUTE>
+      <VALUE>Nima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Laserski daljinomer</ATTRIBUTE>
+      <VALUE>Nima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stabilizacija primarne oborozitve</ATTRIBUTE>
+      <VALUE>Nima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sistem nocnega vida</ATTRIBUTE>
+      <VALUE>Nima</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Starost v letih</ATTRIBUTE>
+      <VALUE>Moderen</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena v evrih</ATTRIBUTE>
+      <VALUE>Nizka</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Stevilo posadke</ATTRIBUTE>
+      <VALUE>Nizko</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Domet v km</ATTRIBUTE>
+      <VALUE>Visok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Dolzina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Sirina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Visina</ATTRIBUTE>
+      <VALUE>Obicajna</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza v kg</ATTRIBUTE>
+      <VALUE>Nizka</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+</MODEL>
