@@ -10,7 +10,7 @@ Avtor: Aljaž Blatnik
 
 ## Model
 
-Pri spletni aplikaciji uporabljamo model ocene tankov, ki je bil ustvarjen v [programskem orodju DEXi](https://kt.ijs.si/MarkoBohanec/dexi.html). Model je dostopen v mapi [Original_Dex_Model](https://github.com/ABlatnik5/Ocena_Tankov_DEXpy/tree/main/Original_Dex_Model). Podroben opis je napisan v obliki seminarske naloge in je dostopen v obliki [PDF datoteke](https://github.com/ABlatnik5/Ocena_Tankov_DEXpy/blob/main/ABlatnik_Ocena_Tankov.pdf).
+Pri spletni aplikaciji uporabljamo model ocene tankov, ki je bil ustvarjen v [programskem orodju DEXi](https://kt.ijs.si/MarkoBohanec/dexi.html). Model je dostopen v mapi [Original_Dex_Model](https://github.com/ABlatnik5/Ocena_Tankov_DEXpy/tree/main/Original_Dex_Model). Podroben opis je napisan v obliki seminarske naloge in je dostopen v obliki [PDF datoteke](https://github.com/ABlatnik5/Ocena_Tankov_DEXpy/blob/main/ABlatnik_Ocena_Tankov_2023.pdf).
 
 Model je bil strukturiran na podlagi informacij, ki so javno znane. Glede na to, da so vse variante tankov, ki so bile uporabljene pri ocenjevanju, še v uporabi, se lahko podatki rahlo razlikujejo od dejanskih specifikacij določenega tanka. Model je zelo preprost in predstavlja ogrodje za gradnjo bolj kompleksnih modelov, kjer se upošteva več dodatnih, bolj podrobnih parametrov.
  
