@@ -26,4 +26,8 @@ Model je bil strukturiran na podlagi informacij, ki so javno znane. Glede na to,
 ## Viri in literatura
 
 - [War Thunder wiki](https://wiki.warthunder.com/Ground_vehicles) : Stran je bila uporabljena za približne ocene oklepa tankov.
-- 
+- [Begelj, A. (2010). Večparametrski odločitveni model za podporo odločanju trenerjem pri vodenju košarkarske ekipe. *Zbornik 7. festivala raziskovanja ekonomije in managementa, str. 605-611.*](https://www.fm-kp.si/zalozba/ISBN/978-961-266-122-9/prispevki/070.pdf) : Teoretična izhodišča pri načrtovanju modela. 
+- [Bohanec, M. & Rajkovič, V. (b. l. ). Večparametrski odločitveni modeli.](https://kt.ijs.si/MarkoBohanec/org95/) : Teoretična izhodišča pri načrtovanju modela. 
+- [Jereb, B. (2015). *Večparametrski odločitveni model za logistike z dodanimi večpredstavnimi vsebinami: visokošolski učbenik z recenzijo.* Celje: Fakulteta za logistiko.](http://labinf.fl.uni-mb.si/vecparametrski-odlocitveni-model/VPOM.pdf) : Teoretična izhodišča pri načrtovanju modela. 
+- [Šetina, S. (2009). *Odločitveni model za pomoč pri izbiri najprimernejšega ponudnika CNC obdelovalnega centra* (diplomska naloga). Univerza v Mariboru: Fakulteta za organizacijske vede.](https://core.ac.uk/reader/67531520) : Teoretična izhodišča pri načrtovanju modela. 
+- [Vrč, G. (2004). *Računalniško podprt večparametrski odločitveni model za ugotavljanje problemov izdelkov v razvojni fazi* (magistrska naloga). Univerza v Ljubljani: Ekonomska fakulteta.](http://www.cek.ef.uni-lj.si/magister/verc390.pdf) : Teoretična izhodišča pri načrtovanju modela. 
