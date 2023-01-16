@@ -8,6 +8,8 @@ Avtor: Aljaž Blatnik
 
 Študijsko leto 2022/2023.
 
+Projekt je osnovan na: [DEXpy](https://repo.ijs.si/bmileva/dexpy) in [HECAT DJANGO](https://repo.ijs.si/pboskoski/hecat_django).
+
 ## Model
 
 Pri spletni aplikaciji uporabljamo model ocene tankov, ki je bil ustvarjen v [programskem orodju DEXi](https://kt.ijs.si/MarkoBohanec/dexi.html). Model je dostopen v mapi [Original_Dex_Model](https://github.com/ABlatnik5/Ocena_Tankov_DEXpy/tree/main/Original_Dex_Model). Podroben opis je napisan v obliki seminarske naloge in je dostopen v obliki [PDF datoteke](https://github.com/ABlatnik5/Ocena_Tankov_DEXpy/blob/main/ABlatnik_Ocena_Tankov_2023.pdf).
